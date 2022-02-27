@@ -3,7 +3,6 @@ from telebot import types
 from pymongo import MongoClient
 import pymongo
 
-
 #Подключаем пароли и БД
 f = open('inputs.txt','r')
 settings = f.readlines()
