@@ -1,0 +1,2 @@
+5011398143:AAHzO8l8cHw3lPTjsL_ZsfB9La839GVG98E
+mongodb+srv://shecof:ARqz5HYtvCG@cluster0.js29w.mongodb.net/DB?retryWrites=true&w=majority
