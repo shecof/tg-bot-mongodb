@@ -22,20 +22,9 @@ category_db = db["category"]
 #создаем массив наименования категорий
 category_name = []
 
-# Вывод всей таблицы
+# Добавляем все значения таблицы в массив
 for x in category_db.find():
     category_name.append(x['name'])
-
-#def markbuttons():
-#	i = 0
-#	for x in name:
-#		btnname = "button%d"% + i
-#		btnname = types.KeyboardButton(x)
-#		print(x)
-#		return(btnname)
-#		i+=1
-
-#markbuttons()
 
 # Обработчик /start
 @bot.message_handler(commands=["start"])
